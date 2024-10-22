@@ -9,5 +9,6 @@ public class GeneradorDeContraseñas {
         int numero = (int) aleatorio;
         password += aleatorio;
         System.out.println(aleatorio);
+
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class DoWhile {
-    public static void main(String[] args){
+    public void ejecutar(){
 
             int intentos = 3;
             while(intentos > 0){

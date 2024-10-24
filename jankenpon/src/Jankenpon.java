@@ -18,13 +18,13 @@ public class Jankenpon {
 
     private void decidirQuienGano(String respuestaDelUsuario, String respuestaDeLaComputadora) {
         //Empate
-        if(respuestaDelUsuario.equals(respuestaDeLaComputadora)){
+        if(respuestaDelUsuario.equalsIgnoreCase(respuestaDeLaComputadora)){
             System.out.println("EMPATE!");
-        }else if(respuestaDelUsuario.equals("Piedra") && respuestaDeLaComputadora.equals("Tijera")){
+        }else if(respuestaDelUsuario.equalsIgnoreCase("Piedra") && respuestaDeLaComputadora.equalsIgnoreCase("Tijera")){
             System.out.println("Ganaste");
-        }else if(respuestaDelUsuario.equals("Tijera") && respuestaDeLaComputadora.equals("Papel")){
+        }else if(respuestaDelUsuario.equalsIgnoreCase("Tijera") && respuestaDeLaComputadora.equalsIgnoreCase("Papel")){
             System.out.println("Ganaste");
-        }else if(respuestaDelUsuario.equals("Papel") && respuestaDeLaComputadora.equals("Piedra")){
+        }else if(respuestaDelUsuario.equalsIgnoreCase("Papel") && respuestaDeLaComputadora.equalsIgnoreCase("Piedra")){
             System.out.println("Ganaste");
         }else {
             System.out.println("PERDISTE!");
